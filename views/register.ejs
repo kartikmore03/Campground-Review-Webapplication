@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+<div class="container">
+
+<div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-6">
+        <h1 class="text-center">Sign Up</h1>
+        <form action="/register" method="post">
+            <label for="user">UserName</label>
+            <input type="text" name="username" id="user" class="form-control">
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" class="form-control">
+            <button type="submit" class="btn btn-primary mt-4">Submit</button>
+        </form>
+    </div>
+    <div class="col-md-3">
+
+    </div>
+</div>
+
+
+</div>
+<%- include('partials/footer.ejs') %>
